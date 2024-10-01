@@ -8,6 +8,7 @@
       - [Efetuar o deploy da Lambda:](#efetuar-o-deploy-da-lambda)
       - [Excluir o stack Lambda:](#excluir-o-stack-lambda)
       - [Notas Finais](#notas-finais)
+  - [Autores](#autores)
 
 ---
 
@@ -79,3 +80,8 @@ sam delete --stack-name auth-lambda
 #### Notas Finais
 Certifique-se de que as credenciais AWS estejam configuradas corretamente no seu ambiente antes de realizar o deploy.
 É importante que no Identity and Access Management (IAM) a função auth-lambda-NetCodeWebAPIServerlessRole-* possua a política AmazonCognitoReadOnly.
+
+## Autores
+
+- **Anderson Lopez de Andrade RM: 350452** <br>
+- **Henrique Alonso Vicente RM: 354583**<br>
