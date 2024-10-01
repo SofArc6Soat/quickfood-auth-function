@@ -13,7 +13,7 @@
 
 # Função Lambda de Autenticação
 
-Esta função Lambda tem como objetivo identificar um cliente (usando seu CPF e senha) ou um funcionário (usando seu email e senha) cadastrados no Amazon Cognito, gerando um token JWT válido após a autenticação bem-sucedida.
+Esta função Lambda tem como objetivo identificar um cliente (usando seu CPF e senha) ou um funcionário (usando seu email e senha) cadastrados no Amazon Cognito, gerando um token JWT válido após a autenticação bem-sucedida. Todas as requisições para a função são realizadas via API Gateway.
 
 ## Como Utilizar
 
